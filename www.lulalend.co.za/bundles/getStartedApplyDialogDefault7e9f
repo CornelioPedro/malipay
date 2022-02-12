@@ -1,0 +1,1 @@
+$(document).ready(function(){$("#divStartApplicationPopupGetStarted").attr("id","divStartApplicationPopup");$("#divStartApplicationPopup").modal({keyboard:!0,show:!1});$("#btnDefaultOpen").trigger("click")})

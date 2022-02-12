@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".scroll-to-embedded-form-trigger").on("click",function(n){return n.preventDefault(),n.stopPropagation(),$("html, body").animate({scrollTop:$(".apply-now-embedded").offset().top-80},2e3),$(".navbar-toggle").length>0&&$(".navbar-toggle").each(function(){$(this).hasClass("collapsed")||$(this).click()}),!1})})
